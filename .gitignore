@@ -1,9 +1,17 @@
 # Built binaries.
 /tailcat
 /cmd/tailcat/tailcat
+/cmd/derper-admit/derper-admit
+/cmd/tailcat-web/tailcat-web
+/cmd/tailcat-webdist/tailcat-webdist
 
 # GoReleaser output.
 /dist
+
+# js/wasm dist files (cmd/tailcat-webdist); normally under /dist.
+main.wasm
+main.wasm.gz
+main.wasm.zst
 
 # Nix build output.
 /result
@@ -11,3 +19,6 @@
 # Go test artifacts.
 *.test
 *.out
+
+# macOS Finder metadata.
+.DS_Store
