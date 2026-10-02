@@ -2,6 +2,7 @@
 /tailcat
 /cmd/tailcat/tailcat
 /cmd/derper-admit/derper-admit
+/cmd/derper-admit/dist/
 /cmd/tailcat-web/tailcat-web
 /cmd/tailcat-webdist/tailcat-webdist
 
